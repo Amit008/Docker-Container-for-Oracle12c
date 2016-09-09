@@ -15,10 +15,7 @@ Docker Links:<br>
 https://docs.docker.com/docker-for-mac/ <br>
 https://www.docker.com/ <br>
 4.Documentation: <br>
-https://docs.docker.com/ <br>
-
-<br>
-<br>
+https://docs.docker.com/
 <br>
 <br>
 Instruction to Build & Run Container
