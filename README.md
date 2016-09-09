@@ -16,12 +16,14 @@ https://docs.docker.com/docker-for-mac/ <br>
 https://www.docker.com/ <br>
 4.Documentation: <br>
 https://docs.docker.com/
-<br>
+5.Perl
+https://dev.perl.org/perl5/news/2011/perl-5.14.1.html <br>
 <br>
 Instruction to Build & Run Container <br>
 Here I'm expecting your familiar with Docker and know how to configure it, I'm only mentioning here how to Build the Image and prepare container from Newly created Docker Image.<br>
 ----Build Oracle 12c Docker Image---- <br>
 Before started building Docker Image you have to setup python http server to host your Installers [refer the URL in Dockerfile] <br>
+Oracle 12c also need perl for some fixes to recompile due to some internal issues with bundled installer.
 1.Download Dockerfile from Repository <br>
 2.create Directory <UserDefined Name> and copy Dockerfile in it <br>
 3. open the shell and go to the directory and execute this command: <br>
