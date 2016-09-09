@@ -27,7 +27,14 @@ Before started building Docker Image you have to setup python http server to hos
 2.create Directory <UserDefined Name> and copy Dockerfile in it <br>
 3. open the shell and go to the directory and execute this command: <br>
    docker build -t oracle12c:stable . <br>
-   wait for this command to finish and it should finished successfully.  
+   wait for this command to finish and it should finished successfully.<br>
+
+Run Docker 12c Container:<br>
+container comes with two option:<br>
+1.CreateDBOnly<br>
+2.StartDBOnly<br>
+
+
 
 
 
