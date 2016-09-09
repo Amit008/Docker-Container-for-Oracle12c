@@ -37,8 +37,10 @@ container comes with two option:<br>
 2.StartDBOnly<br>
 
 These two flag need to be configured while running New Container<br>
-
-State of Oracle12c database is stored on docker volumes locally on host Mac so before starting docker container with CreateDBonly we need to create couple of directories. <br>
+1. if there is not exisiting Oracle DB we need to create DB first you can change the existing CreateDB.sql to change Database as per your need. <br>
+2. State of Oracle12c database is stored on docker volumes locally on host Mac so before starting docker container with CreateDBonly we need to create couple of directories. <br>
+<br>
+3.To Start again the existing Oracle12c database using StartDBonly, make sure you have directories which was created during CreateDB.
 
 
 
