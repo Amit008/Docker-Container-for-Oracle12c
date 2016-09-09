@@ -38,7 +38,7 @@ container comes with two option:<br>
 
 These two flag need to be configured while running New Container<br>
 
-State of data is stored on volumes locally on host Mac so before started building couple of directories need to be created.
+State of Oracle12c database is stored on docker volumes locally on host Mac so before starting docker container with CreateDBonly we need to create couple of directories. <br>
 
 
 
