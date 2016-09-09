@@ -6,10 +6,10 @@ RUN yum -y install unzip;yum install -y make;yum install -y gcc;yum install -y c
 
 
 COPY db_install.rsp /tmp/db_install.rsp
-COPY dbca.rsp /tmp/dbca.rsp
+#COPY dbca.rsp /tmp/dbca.rsp
 COPY listener.ora /tmp/listener.ora
-COPY scripts/Startup.sh /opt/scripts/Startup.sh
-COPY scripts/startdb.sql /opt/scripts/startdb.sql
+#COPY scripts/Startup.sh /opt/scripts/Startup.sh
+#COPY scripts/startdb.sql /opt/scripts/startdb.sql
 
 #####Check Packages are Installed Specific to oracle###########
 
