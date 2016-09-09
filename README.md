@@ -33,7 +33,12 @@ Most of time when I used my playground I have to switch off the container when w
 
 container comes with two option:<br>
 1.CreateDBOnly<br>
+docker run -v /Users/amit/Docker/Oracle12c/Utility:/opt/Utility:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/adump:/u01/app/oracle/admin/orcl/adump:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/fast_recovery_area:/u01/app/oracle/fast_recovery_area:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/oradata:/u01/app/oracle/oradata:rw -t -iP --expose 5502  a75aab6558f7 /opt/Utility/scripts/Startup.sh CreateOnly <br>
+
 2.StartDBOnly<br>
+docker run -v /Users/amit/Docker/Oracle12c/Utility:/opt/Utility:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/adump:/u01/app/oracle/admin/orcl/adump:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/fast_recovery_area:/u01/app/oracle/fast_recovery_area:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/oradata:/u01/app/oracle/oradata:rw -t -iP --expose 5502  a75aab6558f7 /opt/Utility/scripts/Startup.sh StartOnly <br>
+
+
 
 These two flag need to be configured while running New Container<br>
 1. if there is not exisiting Oracle DB we need to create DB first you can change the existing CreateDB.sql to change Database as per your need. <br>
