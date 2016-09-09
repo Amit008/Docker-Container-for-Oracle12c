@@ -18,5 +18,18 @@ https://www.docker.com/ <br>
 https://docs.docker.com/
 <br>
 <br>
-Instruction to Build & Run Container
+Instruction to Build & Run Container <br>
+Here I'm expecting your familiar with Docker and know how to configure it, I'm only mentioning here how to Build the Image and prepare container from Newly created Docker Image.<br>
+
+----Build Oracle 12c Docker Image---- <br>
+Before started building Docker Image you have to setup python http server to host your Installers [refer the URL in Dockerfile] <br>
+1.Download Dockerfile from Repository <br>
+2.create Directory <UserDefined Name> and copy Dockerfile in it <br>
+3. open the shell and go to the directory and execute this command: <br>
+4. docker build -t oracle12c:stable . <br>
+   wait for this command to finish and it should finished successfully.  
+
+
+
+
 
