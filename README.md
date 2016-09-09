@@ -17,3 +17,9 @@ https://www.docker.com/ <br>
 4.Documentation: <br>
 https://docs.docker.com/ <br>
 
+<br>
+<br>
+<br>
+<br>
+Instruction to Build & Run Container
+
