@@ -30,9 +30,16 @@ Before started building Docker Image you have to setup python http server to hos
    wait for this command to finish and it should finished successfully.<br>
 
 Run Docker 12c Container:<br>
+Most of time when I used my playground I have to switch off the container when work was done but I also want to preserve the state if I want to work again with same DB so I created option to Build DB once and can be used many times.
+
 container comes with two option:<br>
 1.CreateDBOnly<br>
 2.StartDBOnly<br>
+
+These two flag need to be configured while running New Container<br>
+
+State of data is stored on volumes locally on host Mac so before started building couple of directories need to be created.
+
 
 
 
