@@ -4,6 +4,8 @@
 
 To build and run this Container Required Oracle 12c to be downloaded from Oracle website<br>
 
-
-
+Useful links<br>
+Download<br>
+Oracle 12c<br> 
+Documentation for Oracle 12c<br>
 
