@@ -33,10 +33,10 @@ Most of time when I used my playground I have to switch off the container when w
 
 container comes with two option:<br>
 1.CreateDBOnly<br>
-docker run -v /Users/amit/Docker/Oracle12c/Utility:/opt/Utility:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/adump:/u01/app/oracle/admin/orcl/adump:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/fast_recovery_area:/u01/app/oracle/fast_recovery_area:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/oradata:/u01/app/oracle/oradata:rw -t -iP --expose {portNo}  <Image-ID> /opt/Utility/scripts/Startup.sh CreateOnly <br>
+docker run -v /Users/amit/Docker/Oracle12c/Utility:/opt/Utility:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/adump:/u01/app/oracle/admin/orcl/adump:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/fast_recovery_area:/u01/app/oracle/fast_recovery_area:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/oradata:/u01/app/oracle/oradata:rw -t -iP --expose {portNo}  {Image-ID} /opt/Utility/scripts/Startup.sh CreateOnly <br>
 
 2.StartDBOnly<br>
-docker run -v /Users/amit/Docker/Oracle12c/Utility:/opt/Utility:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/adump:/u01/app/oracle/admin/orcl/adump:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/fast_recovery_area:/u01/app/oracle/fast_recovery_area:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/oradata:/u01/app/oracle/oradata:rw -t -iP --expose {portNo}  <Image-ID> /opt/Utility/scripts/Startup.sh StartOnly <br>
+docker run -v /Users/amit/Docker/Oracle12c/Utility:/opt/Utility:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/adump:/u01/app/oracle/admin/orcl/adump:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/fast_recovery_area:/u01/app/oracle/fast_recovery_area:rw -v /Users/amit/Docker/Oracle12c/Plug_volume/oradata:/u01/app/oracle/oradata:rw -t -iP --expose {portNo}  {Image-ID} /opt/Utility/scripts/Startup.sh StartOnly <br>
 
 
 
