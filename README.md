@@ -5,7 +5,7 @@
 To build and run this Container Required Oracle 12c to be downloaded from Oracle website<br>
 
 Useful links:<br>
-1.Download<br>
+1.Download Oracle 12c Installers [64bit]<br>
 http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html <br>
 2.Documentation for Oracle 12c<br>
 
