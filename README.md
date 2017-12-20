@@ -50,6 +50,10 @@ These two flag need to be configured while running New Container<br>
 
 
 
+Reset The Database setup:
+
+~/Plug_volume/fast_recovery_area/ORCL/<remove all files>
+~/Plug_volume/oradata/ORCL/<remove all files>
 
 
 
