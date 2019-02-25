@@ -1,3 +1,4 @@
+#Sample
 connect / as sysdba
 
 create spfile from pfile;
